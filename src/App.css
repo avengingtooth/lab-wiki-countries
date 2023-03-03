@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.listItem{
+  border: 1px grey solid;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5%;
+}
+
+.col-7{
+  width: 100%;
+}
